@@ -82,10 +82,12 @@ class ViewController: UIViewController {
             //horizontally
             view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|[\(label)]|", options: [], metrics: nil, views: viewDictionary))
         }
-        //vertically
-        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat:
-            //[label1]-[label2] space 10 points by default
-            "V:|-[label1][label2][label3][label4][label5][label6][label7]", options: [], metrics: nil, views: viewDictionary))
+        
+        let metrics = ["labelHeight": 88]
+        //vertically [label1]-[label2] space 10 points by default
+        
+        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[label1(labelHeight@999)]-[label2(label1)]-[label3(label1)]-[label4(labelHeight)]-[label5(label1)]-[label6(label1)]-[label7(label1)]-(>=10)-|",
+            options: [], metrics: metrics, views: viewDictionary))
 
     }
 
