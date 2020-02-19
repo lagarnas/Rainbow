@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		88CA61A323FD15E9005AC2F7 /* VFL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VFL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88CA61A323FD15E9005AC2F7 /* Rainbow Rainbow VFL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rainbow Rainbow VFL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CA61A623FD15E9005AC2F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88CA61A823FD15E9005AC2F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		88CA61AA23FD15E9005AC2F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		88CA61A423FD15E9005AC2F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88CA61A323FD15E9005AC2F7 /* VFL.app */,
+				88CA61A323FD15E9005AC2F7 /* Rainbow Rainbow VFL.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		88CA61A223FD15E9005AC2F7 /* VFL */ = {
+		88CA61A223FD15E9005AC2F7 /* Rainbow VFL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88CA61B723FD15EA005AC2F7 /* Build configuration list for PBXNativeTarget "VFL" */;
+			buildConfigurationList = 88CA61B723FD15EA005AC2F7 /* Build configuration list for PBXNativeTarget "Rainbow VFL" */;
 			buildPhases = (
 				88CA619F23FD15E9005AC2F7 /* Sources */,
 				88CA61A023FD15E9005AC2F7 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = VFL;
+			name = "Rainbow VFL";
 			productName = VFL;
-			productReference = 88CA61A323FD15E9005AC2F7 /* VFL.app */;
+			productReference = 88CA61A323FD15E9005AC2F7 /* Rainbow Rainbow VFL.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 88CA619E23FD15E9005AC2F7 /* Build configuration list for PBXProject "VFL" */;
+			buildConfigurationList = 88CA619E23FD15E9005AC2F7 /* Build configuration list for PBXProject "Rainbow VFL" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88CA61A223FD15E9005AC2F7 /* VFL */,
+				88CA61A223FD15E9005AC2F7 /* Rainbow VFL */,
 			);
 		};
 /* End PBXProject section */
@@ -292,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lagarnas.VFL;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Rainbow Rainbow VFL";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lagarnas.VFL;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Rainbow Rainbow VFL";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -319,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		88CA619E23FD15E9005AC2F7 /* Build configuration list for PBXProject "VFL" */ = {
+		88CA619E23FD15E9005AC2F7 /* Build configuration list for PBXProject "Rainbow VFL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88CA61B523FD15EA005AC2F7 /* Debug */,
@@ -328,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88CA61B723FD15EA005AC2F7 /* Build configuration list for PBXNativeTarget "VFL" */ = {
+		88CA61B723FD15EA005AC2F7 /* Build configuration list for PBXNativeTarget "Rainbow VFL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88CA61B823FD15EA005AC2F7 /* Debug */,
